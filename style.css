@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+
+    height: 110vh; /*L'ALTEZZA DEL BODY è 110VH, MENTRE QUELLA DEL DIV PRINCIPALE (Main_container) E' DI 100VH; IN QUESTO MODO IL DIV SI INTRROMPERA' POCO PRIMA DELLA FINE DELLA SCHEDA, ESATTAMENTE COME NELLA FOTO DA REPLICARE */
+}
+
+.Main-container{
+    width: 70%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+header{
+    text-align: center;
+    padding-top: 70px;
+}
+
+.logo{
+    width: 20%;
+    height: 20%;
+}
+
+h2{
+    color: #00dd00;
+    font-size: 25px;
+}
+
+.Buttons_container{
+    background-color: #00dd00;
+    width: 80%;
+    height: 40px; /*per qualche motivo l'altezza espressa in percetuale non funziona, quindi ho dovuto esprimerla in px */
+    margin: auto;
+    margin-top: 5px;
+}
+
+button{
+    margin-top: 10px; /*Margin per spostare i bottoni al centro, padding per creare spazio all'interno dei bottoni e infine allineo il testo */
+    padding: 1px 5px;
+    text-align: center;
+}
+
+main{
+    margin-left: 10%;
+    margin-top: 10px;
+}
+
+h3, p{
+    color: white;
+    margin-top: 5px;
+}
+
+h3{
+    display: inline-block;
+    font-size: 20px;
+}
+
+.Orange_loading{
+    width: 35%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #f5b453;
+    margin-bottom: 20px;
+}
+  
+.Green_loading{
+    width: 55%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #1ec31e;
+    margin-bottom: 20px;
+}
+  
+.Red_loading{
+    width: 15%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #be4141;
+    margin-bottom: 20px;
+}
